@@ -1,4 +1,4 @@
-#Dancing Music Mixer
+# Dancing Music Mixer
 
 **Installation/Usage**
 
@@ -26,6 +26,7 @@ JavaScript
 
 
 **Authors**
+
 [Mallory Coleman]- Designer and Developer
 
 [Kathleen MacDonald](https://github.com/kmacdonald80262)-Designer and Developer
