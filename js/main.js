@@ -1,3 +1,18 @@
+// Set up javascript here and connect
+
+// hookup audio and possible buttons here
+
+
+
+
+
+
+
+
+
+
+
+
 // JavaScript Document
 //drag and drop code..
 
