@@ -27,7 +27,6 @@
   }
 
   // add event handling
-  // play.addEventListener("click", playAudio);
 
 
   tracks.forEach(track => track.addEventListener("click", swapSource));
