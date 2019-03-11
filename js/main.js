@@ -1,10 +1,36 @@
-//create a pickel jar, label it as firstName, put a string in it.
-//var firstName = "Mallory";
+(() => {
+   //create a variable stack and grab all of the dom elements from the page
+   let aud = document.querySelector('audio'),
+       tracks = document.querySelectorAll('.trackholder');
 
-//alert("Howdy" + " " + firstName);
 
-//mordern js
+  // write the functions for the audio element
+  function playAudio() {
+  	aud.play();
+  }
 
-//alert(`Hello ${firstName} !!!`);
+  function pauseAudio() {
+  	aud.pause(true);
+  }
 
-console.log("Javascript is Linked up");
+  function rewindAudio() {
+  	aud.currentTime = 0;
+  }
+
+
+  function swapSource() {
+  	let currentTrack = this.dataset.currenttrack;
+
+  	aud.src = `audio/${currentTrack}`;
+  	aud.load();
+  	aud.play();
+  }
+
+  // add event handling
+  // play.addEventListener("click", playAudio);
+
+
+  tracks.forEach(track => track.addEventListener("click", swapSource));
+
+
+})();
