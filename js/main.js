@@ -4,6 +4,16 @@
        tracks = document.querySelectorAll('.trackholder');
 
 
+  // function() {
+  //   var play = document.getElementById("audio");
+  //   play.addEventListener("dragover", function (ev) {
+  //       ev.preventDefault();
+  //   }, false);
+  //   play.addEventListener("drop", function (ev) {
+  //       ev.preventDefault();
+  //       var data = ev.dataTransfer.getData("audio/dance.mp3");
+
+
   // write the functions for the audio element
   function playAudio() {
   	aud.play();
