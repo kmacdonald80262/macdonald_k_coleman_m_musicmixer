@@ -1,32 +1,10 @@
-<<<<<<< HEAD
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Music Mixer</title> 
-  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">   
-  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">  
- 
-</head>
-
-
-<body>
-	<div id ="siteContainer">
-		<div id="blackB">
-			<h1>MUSIC MIXER</h1>
-		</div>
-		<section id="firstRow">
-			<img src="images/dance.gif" alt="dancer" id="dance1">
-	<!-- <h2 class="hidden">Dancer1</h2>
-	<div id="dancer1"><svg><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 266.67 628.51" style="enable-background:new 0 0 266.67 628.51;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	#dancer1{height: 300px;width: 200px;}
 </style>
 <g>
 	<g>
@@ -560,11 +538,3 @@
 </g>
 <path id="moving-arrow" class="st1" d="M62.74,372.73c0,0,135.27-41.96,131.9-71.01C194.64,301.72,287.68,337.22,62.74,372.73z"/>
 </svg>
-</svg></div> -->
-		
-	</div>
-
-<script src="js/main.js"></script>	
-</body>
-</html>
->>>>>>> 3a2cd82baa48aa2d0e1165c1674616c60622bdf7
