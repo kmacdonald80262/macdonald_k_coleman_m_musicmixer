@@ -4,14 +4,10 @@
        tracks = document.querySelectorAll('.trackholder');
 
 
-  // function() {
-  //   var play = document.getElementById("audio");
-  //   play.addEventListener("dragover", function (ev) {
-  //       ev.preventDefault();
-  //   }, false);
-  //   play.addEventListener("drop", function (ev) {
-  //       ev.preventDefault();
-  //       var data = ev.dataTransfer.getData("audio/dance.mp3");
+  let dropZones = document.querySelectorAll('.drop-zone');
+
+  // pieces.forEach((piece, index) => {
+  // let newPuzzlePiece =`<img draggable id ="piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="dancer1">`;
 
 
   // write the functions for the audio element
@@ -26,6 +22,16 @@
   function rewindAudio() {
   	aud.currentTime = 0;
   }
+
+//   function initDrag() {
+//     drag.querySelectorAll('img').forEach(img => {
+      
+//       img.addEventListener("dragstart", function(e) {
+//        {
+//              console = console || {};
+//              console.log = function(){};
+// }
+// function removePlayingClass(event) {
 
 
   function swapSource() {
