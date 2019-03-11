@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.hidden{
+	display: none;
+}
+
+body
+{
+	background-image: url(../images/background.jpg);
+}
+
+#blackB
+{
+	background-color: black;
+	height: 110px;
+	width: 150px;
+	margin-top: -25px;
+	margin-left: 100px;
+}
+
+#blackB h1
+{
+	color: white;
+	font-family: Tahoma;
+	padding: 20px;
+}
+
+#dance1
+{
+	margin-top: 50px;
+	margin-left: -60px;
+}
+
+/*.st1 {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(20deg);
+		}
+}*/
