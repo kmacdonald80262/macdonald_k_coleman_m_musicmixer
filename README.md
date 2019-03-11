@@ -12,7 +12,9 @@ Go into the repository
 
 cd macdonald_k_coleman_m_musicmixer
 
-Then you can check out our website for the TRAA
+Then you can check out our website for the music mixer and make your own tracks!
+
+This mixer works with drag and drop functionality so click and drag each beat or effect to create a uniform sound. 
 
 
 
@@ -27,6 +29,6 @@ JavaScript
 
 **Authors**
 
-[Mallory Coleman]- Designer and Developer
+[Mallory Coleman]-Developer
 
-[Kathleen MacDonald](https://github.com/kmacdonald80262)-Designer and Developer
+[Kathleen MacDonald](https://github.com/kmacdonald80262)-Designer 
