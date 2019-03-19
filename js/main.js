@@ -1,51 +1,15 @@
 (() => {
-   //create a variable stack and grab all of the dom elements from the page
-   let aud = document.querySelector('audio'),
-       tracks = document.querySelectorAll('.trackholder');
+console.log("JS Linked!");
 
+let dancers = document.querySelectorAll('.draggable')
 
-  let dropZones = document.querySelectorAll('.drop-zone');
+let dance1 = document.getElementById('dance1');
+let dance2 = document.getElementById('dance2');
+let dance3 = document.getElementById('dance3');
+let dance4 = document.getElementById('dance4');
+let dance5 = document.getElementById('dance5');
+let dance6 = document.getElementById('dance6');
 
-  // pieces.forEach((piece, index) => {
-  // let newPuzzlePiece =`<img draggable id ="piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="dancer1">`;
-
-
-  // write the functions for the audio element
-  function playAudio() {
-  	aud.play();
-  }
-
-  function pauseAudio() {
-  	aud.pause(true);
-  }
-
-  function rewindAudio() {
-  	aud.currentTime = 0;
-  }
-
-//   function initDrag() {
-//     drag.querySelectorAll('img').forEach(img => {
-      
-//       img.addEventListener("dragstart", function(e) {
-//        {
-//              console = console || {};
-//              console.log = function(){};
-// }
-// function removePlayingClass(event) {
-
-
-  function swapSource() {
-  	let currentTrack = this.dataset.currenttrack;
-
-  	aud.src = `audio/${currentTrack}`;
-  	aud.load();
-  	aud.play();
-  }
-
-  // add event handling
-
-
-  tracks.forEach(track => track.addEventListener("click", swapSource));
-
+let DragZones = document.querySelector('.buttonsDragZones');
 
 })();
