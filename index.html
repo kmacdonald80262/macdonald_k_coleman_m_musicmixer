@@ -12,15 +12,35 @@
 <body>
 	<div id ="siteContainer">
 		<div id="blackB">
-			<h1>VOCAL POINT</h1>
+			<h1></h1>
 		</div>
 		<section id="firstRow">
 
-			<h1 class="hidden">Animation and Music Drag drop</h1>
+			<div id="banner"><h1>Music Mixer</h1></div>
 
-			<audio src="audio/dance.mp3" loop></audio>
-
-			<img data-currenttrack="dance.mp3" src="images/dance.gif" alt="dancer1" id="dance1" class="trackholder">
+			<section class="danceDropZones">
+				<h2 class="hidden">Drop Zones</h2>
+				<div id="dancing1">
+				<img data-currenttrack="dance.mp3" src="images/dance.gif" alt="dancer1" id="dance1" class="trackholder">
+				</div>
+				<div id="dancing2">
+				<img data-currenttrack="dance.mp3" src="images/dance2.gif" alt="dancer2" id="dance2" class="trackholder">
+				</div>
+				<div id="dancing3"></div>
+				<div id="dancing4"></div>
+				<div id="dancing5"></div>
+				<div id="dancing6"></div>
+			</section>
+			<section class="buttons">
+				<button id="button1"></button>
+				<button id="button2"></button>
+				<button id="button3"></button>
+				<button id="button4"></button>
+				<button id="button5"></button>
+				<button id="button6"></button>
+			</section>
+			<div id="instruct"><p>Click and drag any of the sounds to make your song!</p></div>
+			
 			<!-- <img data-currenttrack="dance.mp3" src="images/dance.gif" alt="dancer" id="dance1" class="trackholder">
 			<img data-currenttrack="dance.mp3" src="images/dance.gif" alt="dancer" id="dance1" class="trackholder">
 			<img data-currenttrack="dance.mp3" src="images/dance.gif" alt="dancer" id="dance1" class="trackholder">
