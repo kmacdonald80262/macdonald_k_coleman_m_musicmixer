@@ -7,70 +7,101 @@
 	display: none;
 }
 
-body
-{
-	background-image: url(../images/background.jpg);
+
+
+
+
+
+.imageBG {
+    position:relative;
+    
+}
+.imageBG .text {
+    position:absolute;
+    top:300px; 
+    left:510px;
+    width:500px;
+     
 }
 
-
-
-#dance1
+.imageBG .iconGuy
 {
-	margin-top: 50px;
-	margin-left: -260px;
+	position: absolute;
+	top: 180px;
+	left: 730px;
+}
+.imageBG .head
+{
+	position:absolute;
+    top:10px; 
+    left:700px;
+    width:500px;
 }
 
+.head p
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 40px;
+}
+.text p
+{
+	font-family: 'Germania One', cursive;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+
+#musicMix
+{
+	background-color: black;
+}
 .danceDropZones
 {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
-	margin-top: -40px;
+	height: 400px;
+	background-color: black;
 	
 }
 
+#dancer1
+{
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
 #dancing1
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
+	border: dashed black 2px;
 }
-
 #dancing2
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
+	border: dashed black 2px;
 }
-
 #dancing3
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
+	border: dashed black 2px;
 }
-
 #dancing4
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
+	border: dashed black 2px;
 }
-
 #dancing5
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
+	border: dashed black 2px;
 }
-
 #dancing6
 {
-	border: 2px white dashed;
 	width: 200px;
-	margin-top: 60px;
-	
+	border: dashed black 2px;
 }
 
 button
@@ -83,10 +114,11 @@ button
 .buttons
 {
 	width: 1200px;
-	margin-left: 575px;
+	margin-left: 560px;
 	display: flex;
 	flex-direction: row;
 	margin-top: 20px;
+
 }
 
 #button1
@@ -154,24 +186,20 @@ button
 	font-family: Tahoma;
 	color: white;
 	font-size: 30px;
-	margin-left: 430px;
+	margin-left: 400px;
 	margin-top: 10px;
+	padding-bottom: 30px;
+	
 }
 
-#dance2
-{
-	height: 500px;
-	width: 500px;
-	margin-left: -140px;
-}
 
 h1
 {
-	font-family: Tahoma;
-	color: white;
-	font-size: 50px;
-	margin-top: 10px;
-	margin: 0 auto;
+	font-family: 'Germania One', cursive;
+	color: black;
+	font-size: 80px;
+	margin-top: 100px;
+	margin-left: 600px;
 }
 
 
