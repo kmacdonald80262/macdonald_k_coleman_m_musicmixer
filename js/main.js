@@ -6,11 +6,20 @@
   
   //Variables
   //save referene to dropzone in DOM
-  let dropZone = document.querySelector(".dancing1");
+  let dropZone = document.querySelector('.dancing1');
+
   //save referene to dragable element in DOM
-  let dragElement = document.querySelector(".buttons div");
+  let dragElement = document.querySelector('.buttons div');
   //create variable tunes save new Audio object instance inside of it
-  let play = new Audio("audio/dance.mp3");
+
+  let audio = document.createElement('audio');
+
+
+  audio.src = "audio/dance.mp3";
+
+  document.body.appendChild(audio);
+
+
   
   //functions
   function startDrag (e) {
