@@ -6,20 +6,11 @@
   
   //Variables
   //save referene to dropzone in DOM
-  let dropZone = document.querySelector('.dancing1');
-
+  let dropZone = document.querySelector("#dancer1");
   //save referene to dragable element in DOM
-  let dragElement = document.querySelector('.buttons div');
+  let dragElements = document.querySelectorAll(".buttons div");
   //create variable tunes save new Audio object instance inside of it
-
-  let audio = document.createElement('audio');
-
-
-  audio.src = "audio/dance.mp3";
-
-  document.body.appendChild(audio);
-
-
+  let tunes = new Audio("dance.mp3");
   
   //functions
   function startDrag (e) {
@@ -49,14 +40,21 @@
     //This is where you might play a sound
     tunes.play();
   }
+
+  dragElements.forEach(icon => {
+    icon.addEventListener('dragstart', startDrag);
+  })
   
   
 
   //Event Listener for when the drag interaction starts.
-  dragElement.addEventListener('dragstart', startDrag); 
+  // dragElement.addEventListener('dragstart', startDrag); 
   //Event Listener for when the drag interaction finishes.
-  dragElement.addEventListener('dragend', endDrag);   
-  
+  //dragElement.addEventListener('dragend', endDrag);
+  // Event Listener for when the dragged element is over the drop zone.
+  dropZone.addEventListener('dragover', overDrag);    
+  // Event Listener for when the dragged element dropped in the drop zone.
+  dropZone.addEventListener('drop', dropped);
   
   
 })();
