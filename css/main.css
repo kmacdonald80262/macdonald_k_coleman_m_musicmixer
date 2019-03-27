@@ -104,7 +104,7 @@
 	border: dashed black 2px;
 }
 
-button
+.buttons div
 {
 	border-radius: 50%;
 	background-color: white;
