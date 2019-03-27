@@ -7,10 +7,10 @@
   //Variables
   //save referene to dropzone in DOM
   let dropZone = document.querySelector("#dancer1");
+
   //save referene to dragable element in DOM
   let dragElements = document.querySelectorAll(".buttons div");
   //create variable tunes save new Audio object instance inside of it
-  let tunes = new Audio("dance.mp3");
   
   //functions
   function startDrag (e) {
@@ -18,7 +18,7 @@
     //in this case we are saying that we are storing some text and it is the id of element being moved
     //We need to set this, this iswhy it wasn't working earlier
     //Set the drag's format and data. Use the event target's id for the data
-    e.dataTransfer.setData('text', e.target.id);
+    e.dataTransfer.setData('text', e.target.dataset.audiosrc);
     console.log("dragging");
     console.log(e.dataTransfer.getData('text'));
    }
@@ -38,7 +38,21 @@
     //capture event object and prevent the default behaviour so that draggedOver event can properly be observed
     e.preventDefault();
     //This is where you might play a sound
-    tunes.play();
+    
+    let targetSrc = e.dataTransfer.getData("text");
+    // debugger;
+
+    // const audioElement;
+
+    let audioElement = document.createElement("audio");
+
+    audioElement.src = `audio/${targetSrc}`;
+    audioElement.load();
+    audioElement.play();
+
+
+
+
   }
 
   dragElements.forEach(icon => {
