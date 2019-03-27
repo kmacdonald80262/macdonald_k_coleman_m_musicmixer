@@ -43,6 +43,7 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 40px;
+	margin-top: 60px;
 }
 .text p
 {
@@ -73,38 +74,61 @@
 	margin-left: 20px;
 	margin-top: 40px;
 }
+#dancer2
+{
+	height: 250px;
+	margin-top: 40px;
+	margin-left: -50px;
+}
+#dancer3
+{
+	margin-top: 30px;
+}
+#dancer4
+{
+	margin-top: 90px;
+	height: 300px;
+	margin-left: -40px;
+}
+#dancer5
+{
+	margin-top: 40px;
+	height: 250px;
+	margin-left: -40px;
+}
+#dancer6
+{
+	margin-top: 40px;
+	height: 250px;
+	margin-left: -40px;
+}
 #dancing1
 {
 	width: 200px;
-	border: dashed black 2px;
 }
 #dancing2
 {
 	width: 200px;
-	border: dashed black 2px;
 }
 #dancing3
 {
 	width: 200px;
-	border: dashed black 2px;
 }
 #dancing4
 {
 	width: 200px;
-	border: dashed black 2px;
 }
 #dancing5
 {
 	width: 200px;
-	border: dashed black 2px;
 }
 #dancing6
 {
 	width: 200px;
-	border: dashed black 2px;
+
 }
 
-.buttons div
+button
 {
 	border-radius: 50%;
 	background-color: white;
@@ -203,15 +227,4 @@ h1
 }
 
 
-/*.st1 {
-		-webkit-animation: rotation 2s infinite linear;
-}
 
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(20deg);
-		}
-}*/
