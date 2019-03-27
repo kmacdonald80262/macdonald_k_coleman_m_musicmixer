@@ -10,7 +10,7 @@
   //save referene to dragable element in DOM
   let dragElement = document.querySelector(".buttons div");
   //create variable tunes save new Audio object instance inside of it
-  let tunes = new Audio("dance.mp3");
+  let play = new Audio("audio/dance.mp3");
   
   //functions
   function startDrag (e) {
@@ -46,11 +46,8 @@
   //Event Listener for when the drag interaction starts.
   dragElement.addEventListener('dragstart', startDrag); 
   //Event Listener for when the drag interaction finishes.
-  dragElement.addEventListener('dragend', endDrag);
-  // Event Listener for when the dragged element is over the drop zone.
-  dropZone.addEventListener('dragover', overDrag);    
-  // Event Listener for when the dragged element dropped in the drop zone.
-  dropZone.addEventListener('drop', dropped);
+  dragElement.addEventListener('dragend', endDrag);   
+  
   
   
 })();
