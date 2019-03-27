@@ -1,35 +1,207 @@
+
 @charset "UTF-8";
+
+
 
 .hidden{
 	display: none;
 }
 
-body
-{
-	background-image: url(../images/background.jpg);
+
+
+
+
+
+.imageBG {
+    position:relative;
+    
+}
+.imageBG .text {
+    position:absolute;
+    top:300px; 
+    left:510px;
+    width:500px;
+     
 }
 
-#blackB
+.imageBG .iconGuy
+{
+	position: absolute;
+	top: 180px;
+	left: 730px;
+}
+.imageBG .head
+{
+	position:absolute;
+    top:10px; 
+    left:700px;
+    width:500px;
+}
+
+.head p
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 40px;
+}
+.text p
+{
+	font-family: 'Germania One', cursive;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+
+#musicMix
 {
 	background-color: black;
-	height: 110px;
-	width: 150px;
-	margin-top: -25px;
-	margin-left: 100px;
+}
+.danceDropZones
+{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	background-color: black;
+	
 }
 
-#blackB h1
+#dancer1
 {
-	color: white;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#dancing1
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+#dancing2
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+#dancing3
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+#dancing4
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+#dancing5
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+#dancing6
+{
+	width: 200px;
+	border: dashed black 2px;
+}
+
+button
+{
+	border-radius: 50%;
+	background-color: white;
+	height: 50px;
+	width: 50px;
+}
+.buttons
+{
+	width: 1200px;
+	margin-left: 560px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+
+}
+
+#button1
+{
+	margin-right: 20px;
+	background-image: url(../images/drum.png); 
+}
+
+#button2
+{
+	margin-right: 20px;
+	background-image: url(../images/trumpet.png);
+}
+
+#button3
+{
+	margin-right: 20px;
+	background-image: url(../images/music.png);
+}
+
+#button4
+{
+	margin-right: 20px;
+	background-image: url(../images/guitar.png);
+}
+
+#button5
+{
+	margin-right: 20px;
+	background-image: url(../images/piano.png);
+}
+#button6
+{
+	
+	background-image: url(../images/voice.png);
+}
+
+#button1:hover
+{
+	transform: scale(1.2);
+}
+#button2:hover
+{
+	transform: scale(1.2);
+}
+#button3:hover
+{
+	transform: scale(1.2);
+}
+#button4:hover
+{
+	transform: scale(1.2);
+}
+#button5:hover
+{
+	transform: scale(1.2);
+}
+#button6:hover
+{
+	transform: scale(1.2);
+}
+
+#instruct
+{
 	font-family: Tahoma;
-	padding: 20px;
+	color: white;
+	font-size: 30px;
+	margin-left: 400px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	
 }
 
-#dance1
+
+h1
 {
-	margin-top: 50px;
-	margin-left: -60px;
+	font-family: 'Germania One', cursive;
+	color: black;
+	font-size: 80px;
+	margin-top: 100px;
+	margin-left: 600px;
 }
+
 
 /*.st1 {
 		-webkit-animation: rotation 2s infinite linear;
