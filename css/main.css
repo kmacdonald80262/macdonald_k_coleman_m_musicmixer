@@ -8,27 +8,27 @@
 }
 
 .pinkfill{
-	fill: pink;
+	fill: pink !important;
 }
 
 .bluefill{
-	fill: blue;
+	fill: blue !important;
 }
 
 .yellowfill{
-	fill: yellow;
+	fill: yellow !important;
 }
 
 .greenfill{
-	fill: green;
+	fill: green !important;
 }
 
 .redfill{
-	fill: red;
+	fill: red !important;
 }
 
 .purple{
-	fill: purple;
+	fill: purple !important;
 }
 
 

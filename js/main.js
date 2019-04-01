@@ -51,7 +51,12 @@
     audioElement.load();
     audioElement.play();
 
-   let currentDancer = e.target.closest("svg"); 
+   let currentDancer = e.target.closest("svg");
+
+   let targetSkirt = currentDancer.querySelector("#tutu");
+   // debugger;
+
+   targetSkirt.classList.add("pinkfill") 
 
 
   }
