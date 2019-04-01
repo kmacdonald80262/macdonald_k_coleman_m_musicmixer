@@ -6,7 +6,7 @@
   
   //Variables
   //save referene to dropzone in DOM
-  let dropZone = document.querySelector("#dancer1");
+  let dropZone = document.querySelector(".danceDropZones");
 
   //save referene to dragable element in DOM
   let dragElements = document.querySelectorAll(".buttons div");
