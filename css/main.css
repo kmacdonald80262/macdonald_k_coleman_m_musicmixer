@@ -7,35 +7,30 @@
 	display: none;
 }
 
-.dancer1 .st1 
-{
-	{fill: pink;}
+.pinkfill{
+	fill: pink;
 }
 
-.dancer2 .st2 
-{
-	{fill: blue;}
+.bluefill{
+	fill: blue;
 }
 
-.dancer3 .st3 
-{
-	{fill: yellow;}
+.yellowfill{
+	fill: yellow;
 }
 
-.dancer4 .st4 
-{
-	{fill: green;}
+.greenfill{
+	fill: green;
 }
 
-.dancer5 .st5 
-{
-	{fill: red;}
+.redfill{
+	fill: red;
 }
 
-.dancer6 .st6 
-{
-	{fill: purple;}
+.purple{
+	fill: purple;
 }
+
 
 .imageBG {
     position:relative;
