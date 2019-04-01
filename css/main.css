@@ -7,10 +7,35 @@
 	display: none;
 }
 
+.dancer1 .st1 
+{
+	{fill: pink;}
+}
 
+.dancer2 .st2 
+{
+	{fill: blue;}
+}
 
+.dancer3 .st3 
+{
+	{fill: yellow;}
+}
 
+.dancer4 .st4 
+{
+	{fill: green;}
+}
 
+.dancer5 .st5 
+{
+	{fill: red;}
+}
+
+.dancer6 .st6 
+{
+	{fill: purple;}
+}
 
 .imageBG {
     position:relative;

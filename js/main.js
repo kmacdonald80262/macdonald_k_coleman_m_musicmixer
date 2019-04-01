@@ -31,6 +31,7 @@
     console.log("draggedOver");
     //capture event object and prevent the default behaviour so that draggedOver event can properly be observed
     e.preventDefault();
+  
   }
     
   function dropped(e) {
