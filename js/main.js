@@ -56,7 +56,7 @@
    let targetSkirt = currentDancer.querySelector("#tutu");
    // debugger;
 
-   targetSkirt.classList.add("pinkfill") 
+   targetSkirt.classList.add(currentDancer.dataset.highlight); 
 
 
   }
