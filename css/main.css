@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 
@@ -7,7 +6,29 @@
 	display: none;
 }
 
+.pinkfill{
+	fill: pink !important;
+}
 
+.bluefill{
+	fill: blue !important;
+}
+
+.yellowfill{
+	fill: yellow !important;
+}
+
+.greenfill{
+	fill: green !important;
+}
+
+.redfill{
+	fill: red !important;
+}
+
+.purplefill{
+	fill: purple !important;
+}
 
 
 .imageBG {
